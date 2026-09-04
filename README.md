@@ -2,7 +2,7 @@
 
 Trains the stress classifier used by the Heart Rate Monitor app. Input is a 60-second window of beat-to-beat intervals — the only thing a phone camera can measure, and the output is a stress probability.
 
-Data: [WESAD](https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/)
+Data: [WESAD](https://www.kaggle.com/datasets/orvile/wesad-wearable-stress-affect-detection-dataset)
 
 ## Contents
 - [Results](#results)
