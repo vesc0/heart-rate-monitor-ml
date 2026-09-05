@@ -1,7 +1,11 @@
+# scikit-learn is pinned because the API unpickles the model artifact this repo
+# produces. A version mismatch makes scikit-learn warn on load and can silently
+# change predictions, so this must be bumped together with the API's pin.
+scikit-learn==1.9.0
+
 numpy
 pandas
 scipy
-scikit-learn
 matplotlib
 seaborn
 jupyter
